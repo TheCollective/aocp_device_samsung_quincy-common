@@ -30,8 +30,6 @@ BOARD_FAMILY := quincy
 # inherit from common msm8660
 -include device/samsung/msm8660-common/BoardConfigCommon.mk
 
-# Kernel toolchain
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3/bin/arm-eabi-
 
 # Kernel
 BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom usb_id_pin_rework=true zcache
