@@ -30,7 +30,6 @@ BOARD_FAMILY := quincy
 # inherit from common msm8660
 -include device/samsung/msm8660-common/BoardConfigCommon.mk
 
-
 # Kernel
 BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom usb_id_pin_rework=true zcache
 BOARD_KERNEL_BASE           := 0x48000000
